@@ -1,0 +1,78 @@
+.card{
+    height: 60vh;
+    margin: 25px;
+    padding: 25px;
+}
+
+.container{
+    display: flex;
+    min-width: none;
+    position: relative;
+    word-wrap: break-word;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: .25 rem;
+    flex-direction: column;
+}
+
+.checkoutListBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 1;
+}
+
+.checkoutContent{
+    position: relative;
+    background: #fff;
+    width: 500px;
+    max-width: 90%;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+.fa-close{
+    position: absolute;
+    left: 97%;
+    top: 2%;
+    cursor: pointer;
+}
+
+.left{
+    width: 50%;
+    float: left;
+}
+
+.left input{
+    width: 90%;
+}
+
+.right{
+    width: 50%;
+    float: left;
+}
+
+.right input{
+    width: 90%;
+}
+
+.checkBOX input{
+    width: auto;
+}
+
+.district select{
+    width: 95%;
+}
+
+.checkoutListBox button{
+    background-color: black;
+    color: white;
+}

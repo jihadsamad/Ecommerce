@@ -1,0 +1,123 @@
+.navbar{
+    background-color: goldenrod;
+}
+
+ul{
+    margin-left: 85%;
+}
+
+a{
+    font-weight: bold;
+}
+
+.act{
+    border-bottom: 2px solid black;
+}
+
+.forms{
+    text-align: center;
+}
+
+h2{
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+
+input{
+    width: 25%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-left: 1%;
+}
+
+.fa{
+    color: gray;
+    margin-right: 1%;
+}
+
+.emailLable{
+    position: absolute;
+    left: 41%;
+    top: 40%;
+    color: gray;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.passwordLable{
+    position: absolute;
+    left: 41%;
+    top: 51%;
+    color: gray;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+button{
+    margin-top: 40%;
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 5px 40px;
+}
+
+input:focus{
+    outline: 0;
+    border-bottom: 2px solid goldenrod;
+}
+
+input:valid{
+    outline: 0;
+    border-bottom: 2px solid goldenrod;
+}
+
+.emailInput:focus ~ label{
+    top: 37%;
+    left: 40%;
+    color: goldenrod;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.emailInput:valid ~ label{
+    top: 37%;
+    left: 40%;
+    color: goldenrod;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.passwordInput:focus ~label{
+    top: 48%;
+    left: 40%;
+    color: goldenrod;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.passwordInput:valid ~label{
+    top: 48%;
+    left: 40%;
+    color: goldenrod;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.create{
+    color: black;
+    text-decoration: none;
+}
+
+.create:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.error{
+    width: 25%;
+    background-color: #FFD2D2;
+    color: #D8000C;
+    margin-left: 38%;
+}

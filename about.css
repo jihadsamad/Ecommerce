@@ -1,0 +1,49 @@
+.navbar{
+    background-color: goldenrod;
+}
+
+.cart button{
+    color: white;
+}
+
+.cart button:hover{
+    color: white;
+}
+
+.dashboard{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.dashboard:hover{
+    color: white;
+}
+
+.nav2{
+    background-color: gainsboro;
+}
+
+.act{
+    border-bottom: 3px solid goldenrod;
+    color: goldenrod;
+}
+
+.profile{
+    position: absolute;
+    left: 93%;
+    top: 8.5%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.profile img{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    border: 2px solid goldenrod;
+}
+
+.profile img:hover{
+    cursor: pointer;
+}

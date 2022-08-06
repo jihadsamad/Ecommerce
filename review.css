@@ -1,0 +1,64 @@
+body{
+    background-image: url("images/bg_review.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.allReviews{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.review_content{
+    position: relative;
+    background: #fff;
+    width: 500px;
+    max-width: 90%;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+.fa-close{
+    position: absolute;
+    color: black;
+    left: 97%;
+    top: 2%;
+}
+
+.fa-close:hover{
+    cursor: pointer;
+    color: darkred;
+}
+
+.allReviews button{
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+
+.peopleReviews img{
+    width: 6%;
+    height: 10%;
+    border-radius: 100%;
+    border: 2px solid goldenrod;
+}
+
+.peopleReviews{
+    background-color: whitesmoke;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.peopleReviews p{
+    margin-left: 3%;
+    color: grey;
+}

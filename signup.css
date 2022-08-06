@@ -1,0 +1,200 @@
+.navbar{
+    background-color: goldenrod;
+}
+
+ul{
+    margin-left: 85%;
+}
+
+a{
+    font-weight: bold;
+}
+
+.act{
+    border-bottom: 2px solid black;
+}
+
+.forms{
+    text-align: center;
+}
+
+h2{
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+
+input{
+    width: 25%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-left: 1%;
+}
+
+.userLable{
+    position: absolute;
+    top: 40%;
+    left: 41%;
+    color: gray;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.emailLable{
+    position: absolute;
+    top: 47.5%;
+    left: 41%;
+    color: gray;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.phoneLable{
+    position: absolute;
+    top: 55%;
+    left: 41%;
+    color: gray;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.passwordLable{
+    position: absolute;
+    top: 62.5%;
+    left: 41%;
+    color: gray;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.confirmPasswordLable{
+    position: absolute;
+    top: 70%;
+    left: 41%;
+    color: gray;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+button{
+    margin-top: 20%;
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 5px 40px;
+}
+
+.fa{
+    color: gray;
+    margin-right: 1%;
+}
+
+input:focus{
+    border-bottom: 2px solid goldenrod;
+    outline: 0;
+}
+
+input:valid{
+    border-bottom: 2px solid goldenrod;
+    outline: 0;
+}
+
+.userInput:focus ~ label{
+    color: goldenrod;
+    top: 37%;
+    left: 40%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.userInput:valid ~ label{
+    color: goldenrod;
+    top: 37%;
+    left: 40%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.emailInput:focus ~ label{
+    color: goldenrod;
+    top: 44.5%;
+    left: 40%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.emailInput:valid ~ label{
+    color: goldenrod;
+    top: 44.5%;
+    left: 40%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.phoneInput:focus ~ label{
+    color: goldenrod;
+    top: 52%;
+    left: 40%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.phoneInput:valid ~ label{
+    color: goldenrod;
+    top: 52%;
+    left: 40%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.passwordInput:focus ~ label{
+    color: goldenrod;
+    top: 59%;
+    left: 40%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.passwordInput:valid ~ label{
+    color: goldenrod;
+    top: 59%;
+    left: 40%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.confirmPasswordInput:focus ~ label{
+    color: goldenrod;
+    top: 66.5%;
+    left: 40%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.confirmPasswordInput:valid ~ label{
+    color: goldenrod;
+    top: 66.5%;
+    left: 40%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.login{
+    color: black;
+    text-decoration: none;
+}
+
+.login:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.error{
+    width: 25%;
+    background-color: #FFD2D2;
+    color: #D8000C;
+    margin-left: 38%;
+}
+
+
